@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+
+.Container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    box-shadow: 3px 2px 7px black;
+    padding: 10px;
+}
+
+form{
+    width: 35%;
+    padding: 10px;
+}
+form h1{
+    font-size: 52px;
+    font-weight: bolder;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.wrap{
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+.wrap:hover{
+    border-bottom: 3px solid rgb(15, 196, 24);
+}
+
+.side> img{
+    width: 400px;
+    height: 450px;
+    border-radius: 7px;
+}
+
+.side> p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.side > p:hover{
+    color: rgb(12, 201, 12);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgb(17, 175, 17);
+    padding: 7px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    background-color: green;
+}
